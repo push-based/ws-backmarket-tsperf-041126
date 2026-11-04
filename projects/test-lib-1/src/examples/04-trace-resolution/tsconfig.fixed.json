@@ -7,7 +7,8 @@
     "esModuleInterop": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "incremental": false
+    "incremental": false,
+    "baseUrl": "."
   },
   "files": ["./consumer-example.ts"]
 }
