@@ -1,0 +1,10 @@
+tmp
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+node_modules
+.idea
+.DS_Store
+dist
+# **/ts-diagnostics/*/ts-diagnostics/
+# **/examples/**/generated

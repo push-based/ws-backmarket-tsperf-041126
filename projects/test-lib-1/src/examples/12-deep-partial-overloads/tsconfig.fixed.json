@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@test-utils/mocks/mockUseRuntimeConfig": ["./mock-use-runtime-config.fixed.ts"],
+      "vitest": ["./vitest-stub.d.ts"]
+    }
+  },
+  "files": ["./specs/account-page.ts", "./specs/home-page.ts"]
+}

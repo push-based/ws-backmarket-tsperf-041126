@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "target": "ES2022",
+    "module": "ESNext"
+  },
+  "files": ["./union-type-reduction.fixed.ts"]
+}

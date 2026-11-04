@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es5", "dom"],
+    "strict": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "baseUrl": ".",
+    "paths": { "@utils/*": ["utils/*.slow.ts"] }
+  },
+  "files": ["./index.slow.ts"]
+}

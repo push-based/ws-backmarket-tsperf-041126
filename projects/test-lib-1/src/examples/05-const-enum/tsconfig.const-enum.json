@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "isolatedModules": false,
+    "target": "ES2022",
+    "module": "ESNext",
+    "outDir": "./dist/const-enum"
+  },
+  "files": ["./const-enum.ts"]
+}
