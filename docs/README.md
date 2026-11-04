@@ -17,13 +17,6 @@
   - [Why this matters for performance work](./where-it-runs.md#why-this-matters-for-performance-work)
   - [Table](./where-it-runs.md#table)
 
-- [tsc CLI Performance Diagnostics](./article/tsc-diagnostics.md) - long-form guide to `tsc`'s diagnostics/profiling flags, the `trace.json`/`types.json` data shapes, and a real worked audit
-  - [What are tsc diagnostics and why do we need them?](./article/tsc-diagnostics.md#what-are-tsc-diagnostics-and-why-do-we-need-them)
-  - [Generating tsc diagnostics](./article/tsc-diagnostics.md#generating-tsc-diagnostics)
-  - [Data Structure](./article/tsc-diagnostics.md#data-structure)
-  - [Real-life example: auditing test-lib-1](./article/tsc-diagnostics.md#real-life-example-auditing-test-lib-1)
-  - [Best practices](./article/tsc-diagnostics.md#best-practices)
-
 - [Performance Tools](./tools.md) - `tsc` diagnostics flags and analysis tooling
   - [Essential Commands](./tools.md#essential-commands)
     - [`tsc --diagnostics`](./tools.md#tsc---diagnostics)
@@ -34,7 +27,6 @@
     - [`tsc --listFiles`](./tools.md#tsc---listfiles)
   - [Supporting Tools](./tools.md#supporting-tools)
     - [Chrome DevTools Trace Viewer](./tools.md#chrome-devtools-trace-viewer)
-    - [Chrome Perfetto]()
   - [Usage Table](./tools.md#usage-table)
 
 - [Performance Audit Flow](./performance-audit-flow.md) - step-by-step measurement and optimization workflow
@@ -64,7 +56,3 @@
   - [Union Type Reduction](../projects/test-lib-1/src/examples/10-union-type-reduction/README.md)
   - [Intersection-to-Interface Conversion](../projects/test-lib-1/src/examples/11-intersection-to-interface/README.md)
   - [Deep-Partial Test Helper](../projects/test-lib-1/src/examples/12-deep-partial-overloads/README.md)
-
-- [Conformance - Continuous Measurement in CI](./tools.md#conformance---continuous-measurement-of-ts-performance-in-ci) - Tracking and regression detection of TypeScript performance in CI
-  - [What to track]()
-  - [Tracking tools]()

@@ -176,8 +176,6 @@ ts-diagnostics/
   └── types.json
 ```
 
-**Sample Data:** generated from [`docs/data/trace-test-src/slow.ts`](./data/trace-test-src/slow.ts) (a deliberately slow generic-heavy type, `CartesianProduct` over two 40-element tuples) - [`docs/data/trace-output/trace.json`](./data/trace-output/trace.json) and [`docs/data/trace-output/types.json`](./data/trace-output/types.json).
-
 **Expected Sections:**
 - CreateProgram (usually fast, ignore unless enormous)
 - Bind (usually fast, ignore unless enormous)
